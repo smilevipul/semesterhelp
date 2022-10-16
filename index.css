@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Bad Script', cursive;
+    /* margin: 5px; */
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+
+body{
+
+    background-image: url('./pexels-junior-teixeira-2047905\ \(another\ copy\).jpg');
+    background-position-x: center;
+    background-size: cover;
+}
+.header{
+    display: flex;
+   
+    background-color: rgb(238, 237, 244);
+}
+.header .logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    margin-right: 60%; 
+    color: black;
+    
+    
+}
+.header nav ul{
+    display: flex;
+    
+    
+}
+
+.header nav ul li{
+    list-style: none;
+    margin: 15px;
+    
+}
+.header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    
+}
+a:hover{
+    text-shadow: 5px 4px 10px rgb(6, 252, 239);
+}
+section{
+    margin-top: 10px;
+}
+#first{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;  
+       
+
+}
+#first .subjects{
+    background-color:rgba(12, 3, 108, 0.167);
+    box-shadow: 10px 10px 10px whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#first .subjects ul li a{
+    text-decoration: none;
+    font-size: large;
+
+}
+section h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    /* color: black; */
+    text-shadow: 5px 5px 10px rgba(231, 17, 243, 0.942);
+}
+
+footer ul{
+    display: flex;       
+    background-color: rgba(12, 3, 108, 0.479);
+
+}
+footer ul li{
+    margin: 10px;
+    list-style-type: none;
+    padding: 5px;
+
+}
+footer ul li a{
+    margin: 10px;
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width :821px)
+{
+    #first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media only screen and (max-width :390px)
+{
+    #first{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
+@media only screen and (max-width :1520px)
+{
+    .header h1{
+    margin-right: 50%;
+}
+}
+@media only screen and (max-width :1520px)
+{
+    .header h1{
+    margin-right: 30%;
+}
+}
+@media only screen and (max-width :400px)
+{
+    .header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 128, 0, 0.751);
+    justify-content: center;
+    align-items: center;
+}
+
+.header nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+   
+    background-color: rgba(0, 128, 0, 0.766);
+    align-items: center;
+    justify-content: center;
+
+}
+}
+
+/* Utility Class */
+.h-primary{
+    font-size: 60px;
+    color:rgb(8, 248, 212);
+}
+
+.h-secondry u{
+   font-size: 40px;
+   color: darkcyan;
+}
